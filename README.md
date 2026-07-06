@@ -33,20 +33,6 @@
 - **服务设施**：游客中心、停车场、母婴室、医疗急救等 8 项便民服务
 - **响应式布局**：完美适配手机、平板、桌面端
 
-## 在线预览
-
-直接在浏览器中打开 `longhuwan-guide.html` 即可访问。
-
-```bash
-# 方式一：直接双击打开
-open longhuwan-guide.html
-
-# 方式二：使用本地服务器
-python3 -m http.server 8080
-# 然后访问 http://localhost:8080/longhuwan-guide.html
-
-# 方式三：使用 Node.js 的 http-server
-npx http-server -p 8080
 ```
 
 ## 项目结构
