@@ -21,7 +21,7 @@
 
 ## 功能特性
 
-- **英雄首屏**：全屏景区背景图 + 主题标语，支持一键开启导览
+- **网站首屏**：全屏景区背景图 + 主题标语，支持一键开启导览
 - **景区概况**：介绍龙湖湾"一街三轴四坊九巷"布局，展示核心运营数据
 - **智慧地图**：SVG 交互式地图，点击 9 个景点标记可查看详细介绍与开放时间
 - **景点导览**：6 大景点卡片展示，支持按"文化体验 / 自然风光 / 美食购物"分类筛选
@@ -53,7 +53,7 @@ npx http-server -p 8080
 
 ```
 longhuwan-guide/
-├── longhuwan-guide.html      # 主页面（单页应用入口）
+├── index.html      # 主页面（单页应用入口）
 ├── README.md                 # 项目说明文档
 ├── LICENSE                   # 开源许可证
 ├── .gitignore                # Git 忽略配置
@@ -72,35 +72,6 @@ longhuwan-guide/
     └── js/
         └── echarts.min.js    # ECharts 图表库
 ```
-
-## 快速开始
-
-### 1. 克隆仓库
-
-```bash
-git clone https://github.com/your-username/longhuwan-guide.git
-cd longhuwan-guide
-```
-
-### 2. 本地预览
-
-```bash
-# Python 3
-python3 -m http.server 8080
-
-# 或 Node.js
-npx http-server -p 8080
-```
-
-然后在浏览器中访问 `http://localhost:8080/longhuwan-guide.html`。
-
-### 3. 部署到 GitHub Pages
-
-1. 在 GitHub 创建新仓库并上传代码
-2. 进入仓库 **Settings > Pages**
-3. Source 选择 **Deploy from a branch**
-4. Branch 选择 `main`，文件夹选择 `/(root)`
-5. 保存后即可通过 `https://your-username.github.io/longhuwan-guide/longhuwan-guide.html` 访问
 
 ## 技术栈
 
@@ -127,16 +98,6 @@ npx http-server -p 8080
 - Firefox
 - Safari
 - 移动端浏览器（iOS Safari、Chrome Mobile）
-
-## 贡献指南
-
-欢迎提交 Issue 和 Pull Request！
-
-1. Fork 本仓库
-2. 创建您的特性分支：`git checkout -b feature/xxx`
-3. 提交更改：`git commit -m 'Add some feature'`
-4. 推送分支：`git push origin feature/xxx`
-5. 创建 Pull Request
 
 ## 许可证
 
